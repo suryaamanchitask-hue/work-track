@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="WorkTrack - Employee Time Tracking & Timesheet Management System">
+  <meta name="keywords" content="timesheet, time tracking, employee management, work hours">
+  <meta name="author" content="WorkTrack">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Theme Color -->
+
+  <meta name="theme-color" content="#2563EB">
+
+  <!-- iOS Support -->
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="WorkTrack">
+
+  <title>WorkTrack - Employee Time Tracking</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #F8FAFC;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('flutter-first-frame', function () {
+      navigator.serviceWorker.register('flutter_service_worker.js?v=2748315317');
+    });
+  }
+</script>
+
+<!-- Flutter bootstrap -->
+
+<script src="flutter_bootstrap.js" defer></script>
+
+</body>
+</html>
